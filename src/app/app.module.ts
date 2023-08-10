@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PlaceholderHomeComponent } from './placeholders/placeholder-home/placeholder-home.component';
+import { PlaceholdersModule } from './placeholders/placeholders.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PlaceholdersModule
   ],
   providers: [],
   bootstrap: [AppComponent]
