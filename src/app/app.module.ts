@@ -7,18 +7,15 @@ import { PlaceholdersModule } from './placeholders/placeholders.module';
 import { TablesModule } from './tables/tables.module';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { DividerComponent } from './Shared/divider/divider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NotFoundComponent,
-    DividerComponent
   ],
   imports: [
     BrowserModule,
-    
     PlaceholdersModule,
     TablesModule,
     AppRoutingModule,
