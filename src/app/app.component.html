@@ -1,3 +1,10 @@
-<router-outlet>
-    
-</router-outlet>
+<div class="ui container">
+  <div class="ui secondary pointing menu">
+    <a class="item" routerLinkActive="active" routerLink="/s">Home</a>
+    <a class="item" routerLinkActive="active" routerLink="/placeholders">Placeholders</a>
+    <a class="item" routerLinkActive="active" routerLink="/tables">Tables</a>
+  </div>
+  <div class="ui segment">
+    <router-outlet> </router-outlet>
+  </div>
+</div>
