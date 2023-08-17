@@ -5,12 +5,14 @@ import { PlaceholdersRoutingModule } from './placeholders-routing.module';
 import { PlaceholderHomeComponent } from './placeholder-home/placeholder-home.component';
 import { PlaceholdersComponent } from './placeholders/placeholders.component';
 import { SharedModule } from '../shared/shared.module';
+import { SegmentComponent } from './segment/segment.component';
 
 
 @NgModule({
   declarations: [
     PlaceholderHomeComponent,
-    PlaceholdersComponent
+    PlaceholdersComponent,
+    SegmentComponent
   ],
   imports: [
     CommonModule,
